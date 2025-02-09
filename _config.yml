@@ -101,4 +101,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/Nostalgia-Season-Train/Nostalgia-Season-Train.github.io
+  branch: main  # 第 8 步教程是错的，发布到 main 或 master 主分支
